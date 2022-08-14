@@ -6,19 +6,19 @@ public class Main {
         a [0] = 1;
         a [1] = 2;
         a [2] = 3;
-        // 1.2
+       // 1.2
         double [] b = {1.57, 7.654, 9.986};
-        // 1.3
+       // 1.3
         int [] C ={12, 17, 28};
         //Задача 2
         System.out.println();
-        for (int i=0; i<a.length;i++){
-            System.out.print(a[i]);
-            if (i != a.length-1){
-                System.out.print(", ");
+       for (int i=0; i<a.length;i++){
+           System.out.print(a[i]);
+           if (i != a.length-1){
+               System.out.print(", ");
 
-            }
-        }
+           }
+       }
         System.out.println();
         for (int i=0; i<b.length;i++){
             System.out.print(b[i]);
@@ -31,8 +31,8 @@ public class Main {
             System.out.print(C[i]);
             if (i != C.length-1){
                 System.out.print(", ");
-            }
-        }
+}
+}
         //Задание 3
         System.out.println();
         for (int i=a.length- 1; i >= 0; i--){
@@ -66,9 +66,10 @@ public class Main {
                 System.out.print(a[i]);
                 if (i != a.length-1){
                     System.out.print(", ");
+
                 }
             }
+            }
         }
-    }
 
-}
+    }
